@@ -1,4 +1,5 @@
 import time
+
 print('Hi')
 
 # for i in range(99):
@@ -7,6 +8,5 @@ print('Hi')
 name = 'AhunovTIMUR'
 
 for i in name:
-    print(i, end='')
-    print('', end='\r')
+    print(i)
     time.sleep(.5)
